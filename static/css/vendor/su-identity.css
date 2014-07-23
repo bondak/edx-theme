@@ -5,6 +5,72 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
+html{
+	font:100% normal Arial, sans-serif;
+}
+body{
+	margin:0;padding:0;
+}
+
+header.global h1,
+header.global ol.left,
+header.global ol.right {	
+	display:inline-block;
+}
+header.global h1{margin-left:10px;}
+header.global ol.left{margin-left:100px;}
+header.global ol.right{float:right;margin-top:110px;}
+
+header.global .nav-global{
+	margin-top: 10px;
+	list-style: none;
+}
+header.global .nav-global li {
+	display: inline-block;
+	margin: 0;
+	font-size: 1em;
+	font-weight:700;
+	text-transform: uppercase;
+	letter-spacing: 0 !important;
+	border-left:1px solid #000;
+	padding:0 20px;
+}
+header.global .nav-global li:first-child {border-left:none;}
+
+header.global .nav-global li a,
+header.global .nav-global li a:link,
+header.global .nav-global li a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+header.global .nav-global li a:active,
+header.global .nav-global li a:hover,
+header.global .nav-global li a:focus{
+	color:#044ea5;
+}
+
+header.global .nav-courseware {
+margin: 5px 10px 0 0;
+list-style: none;
+}
+header.global .nav-courseware li .cta {
+box-shadow: 0 2px 1px 0 none;
+background: #cb490f;
+color: #ffffff;
+font-weight:700;
+text-decoration:none;
+text-transform:uppercase;
+}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon {
+border: none;
+padding: 10px 20px;
+text-align: center;
+text-shadow: none;
+font-weight: 500;
+letter-spacing: 0;
+}
+
+header.global, footer,
 #su-header .su-container,
 #su-footer .su-container {
   margin: 0 auto;
@@ -40,21 +106,41 @@
 
 /* Background gradient */
 #su-header {
-  background: #8c1515;
+  background: #424244;
+  color: #ffffff;
   box-shadow: inset 0 -4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
-  min-height: 30px;
 }
 
 #su-footer,
 #su-footer .su-container {
-  background: #8c1515;
-  color: #e3dfd5;
+  background: #424244;
+  color: #ffffff;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
 
 /* Prevent flush left */
 #su-header .su-container img {
-  padding: 4px 0 0 10px;
+  padding:0;
+}
+#su-header .su-container a {
+  display:inline-block;
+  vertical-align:middle;
+  height:45px;
+}
+#su-header .su-container p {
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 0 0 20px;
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+.home>header{
+	background:url("http://benhur.teluq.ca/logo_teluq/ul-header-bg.jpg") no-repeat;
+	height: 460px;
+	/*overflow: hidden;*/
+	padding: 0px;
+	width: 100%;
 }
 
 #su-footer a {
@@ -65,7 +151,7 @@
   text-decoration: underline;
 }
 
-/* Prevent horizontal scroll bar */
+/* Prevent horizontal scroll bar */*
 #su-footer .su-container {
   padding: 3px 7px 20px;
 }
@@ -154,10 +240,11 @@ Media queries
 
   /* Remove left padding */
   #su-header .su-container img {
-    padding:4px 0 0;
+    padding:0;
   }
 
   /* Bootstrap style */
+  header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
     width:724px;
@@ -219,6 +306,8 @@ Media queries
 
 @media screen and (min-width: 980px) {
   /* Bootstrap style */
+  
+  header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
     width:940px;
@@ -236,9 +325,10 @@ Media queries
 @media screen and (min-width: 1200px) {
   /* Bootstrap style */
   
+ header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
-    width:1180px;
+    width:1024px;
   }
 
   #su-footer .span2 {

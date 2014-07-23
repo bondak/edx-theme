@@ -1,0 +1,4 @@
+edxapp_use_custom_theme: true
+edxapp_theme_name: 'stanford'
+edxapp_theme_source_repo: 'git://github.com/bondak/edx-theme-1.git'
+edxapp_theme_version: 'HEAD'

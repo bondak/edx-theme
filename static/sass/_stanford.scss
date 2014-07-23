@@ -10,8 +10,10 @@
 //-----------------
 
 //Cardinal Color Variables
-$cardinal-red: #8C1515;
+$orange: #8C1515;
 $dark-red: #820000; //Link Color
+$darkgrey: #424244;
+$blue: #044ea5 //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -32,7 +34,7 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 $gray-3: #e9e6df; //Block/Course BG Color
 $gray-2: #f2f1eb;
 $gray-1: #fbfbf9; //Main BG Color
-$white: $gray-1;
+$white: #ffffff;
 
 $black: #2e2d29;
 $black-80: #585754;
@@ -43,7 +45,7 @@ $black-80: #585754;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Source Sans';
+$theme-sans-font: 'Arial';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
@@ -57,10 +59,10 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $gray-1;
-$container-bg: $gray-1;
-$login-register-bg: $gray-1;
-$content-wrapper-bg: $gray-1;
+$body-bg: $white;
+$container-bg: $white;
+$login-register-bg: $white;
+$content-wrapper-bg: $white;
 $header-image: none;
 $header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
@@ -81,8 +83,8 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-red;
-$link-color-d1: $dark-red;
+$link-color: $blue;
+$link-color-d1: $blue;
 $link-hover: $cardinal-light;
 $site-status-color: $cardinal-bg;
 
@@ -92,7 +94,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: $dark-red;
 $header-link-hover: $cardinal-light;
 
-$button-color: $cardinal-red;
+$button-color: $orange;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -103,7 +105,7 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $orange;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 

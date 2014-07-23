@@ -3,6 +3,11 @@
 <%namespace name='static' file='/static_content.html'/>
 <%inherit file="/navigation.html"/>
 
+## TODO: this will eventually be moved to the Sass
+<%block name="navigation_logo">
+  <img src="${static.url('themes/stanford/images/ul-logo.png')}" width="325" height="109" alt="Page Accueil" />
+</%block>
+
 ## We don't want extra links inside the navigation dropdown
 <%block name="navigation_dropdown_menu_links" />
 
@@ -27,15 +32,10 @@
 <%block name="navigation_top">
   <div id="ul-header">
     <div class="ul-container">
-      <a href="http://http://www.teluq.ca/" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
+      <a href="http://www.teluq.ca/" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
         <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_couleur.png" alt="TÉLUQ - L'université. Aujourd'hui." width="131" height="45">
       </a>
       <p>Les cours en ligne ouverts et massifs (CLOM - MOOC)</p>
     </div>
   </div>
-</%block>
-
-## TODO: this will eventually be moved to the Sass
-<%block name="navigation_logo">
-  <img src="${static.url('themes/stanford/images/stanford-S-logo.png')}" height="35" alt="Home Page" />
 </%block>

@@ -3,35 +3,61 @@
   from django.core.urlresolvers import reverse 
   from edxmako.shortcuts import marketing_link
 %>
+<!--<div id="su-footer">
+  <div class="su-container">
+    <div class="su-row">
+    <ul>
+    	<li>
+    	<a href="http://www.facebook.ca" title="Facebook.">
+            <img src="${static.url('themes/stanford/images/ul-facebook.png')}" alt="Page Facebook" width="55" height="55">
+        </a>
+        </li>
+        <li>
+        <a href="http://www.twitter.ca" title="Twitter.">
+            <img src="${static.url('themes/stanford/images/ul-twitter.png')}" alt="Page Twitter" width="55" height="55">
+        </a>
+        </li>
+        <li>	
+        <a href="http://code.edx.org/" title="Lien RSS.">
+            <img src="${static.url('themes/stanford/images/ul-rss.jpg')}" alt="Lien RSS." width="55" height="55">
+        </a>
+        </li>
+    </ul>
+    <div style="clear: both;"></div>
+    </div>
+  </div>
+</div>-->
 <div class="wrapper-footer">
   <footer>
     <div class="colophon">
       <nav class="nav-colophon">
-        <ol>
-          <li><a href="${reverse('tos')}">Terms of Service</a></li>
-          <li><a href="${reverse('tos')}#privacy">Privacy Policy</a></li>
-          <li><a href="${reverse('tos')}#honor">Honor Code</a></li>
-          <li><a href="${reverse('tos')}#copyright">Copyright</a></li>
-          <li><a href="${reverse('about_edx')}#careers">Careers</a></li>
+      	<ol>
+          <li><a href="${marketing_link('ABOUT')}">À propos de...</a></li>
+          <li><a href="https://stanfordonline.zendesk.com/hc">Aide</a></li>
           <li><a href="${reverse('about_edx')}#contact">Contact</a></li>
-          <li><a href="https://stanfordonline.zendesk.com/hc">Help</a></li>
+        </ol>
+        <ol>
+          <li><a href="${reverse('tos')}">Conditions générales d’utilisation</a></li>
+          <li><a href="${reverse('tos')}#honor">Charte utilisateur</a></li>
+          <li><a href="${reverse('tos')}#privacy">Politique de confidentialité</a></li>
+          <li><a href="${reverse('tos')}#copyright">Mentions Légales</a></li>
         </ol>
       </nav>
     </div>
     <div class="references">
-      <span>Built on <a href="http://code.edx.org">OpenEdX</a>.</span>
+        <a href="http://www.teluq.ca/" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
+            <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_noir.png" alt="TÉLUQ - L'université. Aujourd'hui." width="87" height="30">
+        </a>
+        <a href="http://code.edx.org/" title="Open edX.">
+            <img src="${static.url('themes/stanford/images/openedx_logo.jpg')}" alt="Powered by OPEN edX." width="101" height="34">
+        </a>
     </div>
   </footer>
 </div>
-
+<!--
 <div id="su-footer">
   <div class="su-container">
     <div class="su-row">
-      <div id="su-footer-logo" class="span2">
-        <a href="http://www.stanford.edu">
-          <img src="https://www.stanford.edu/su-identity/images/footer-stanford-logo@2x.png" alt="Stanford University" width="105" height="49"/>
-        </a>
-      </div>
       <div id="su-footer-text" class="span10">
         <ul>
           <li class="home"><a href="http://www.stanford.edu">SU Home</a></li>
@@ -43,7 +69,10 @@
         <div class="clear"></div>
         <p class="copyright vcard">&copy; <span class="fn org">Stanford University</span>, <span class="adr"> <span class="locality">Stanford</span>, <span class="region">California</span> <span class="postal-code">94305</span> </span></p>
       </div>
+      <div id="su-footer-logo" class="span2">  
+        
+      </div>
       <div style="clear: both;"></div>
     </div>
   </div>
-</div>
+</div>-->

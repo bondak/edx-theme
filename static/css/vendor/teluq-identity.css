@@ -4,7 +4,7 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
-
+header.global, footer,
 #su-header .su-container,
 #su-footer .su-container {
   margin: 0 auto;
@@ -69,6 +69,11 @@
   margin:0 0 0 20px;
   font-weight:700;
   text-transform:uppercase;
+}
+
+header.global{
+	height: 145px;
+	padding-top: 10px;
 }
 
 .home>header{
@@ -179,6 +184,7 @@ Media queries
   }
 
   /* Bootstrap style */
+  header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
     width:724px;
@@ -240,6 +246,7 @@ Media queries
 
 @media screen and (min-width: 980px) {
   /* Bootstrap style */
+  header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
     width:940px;

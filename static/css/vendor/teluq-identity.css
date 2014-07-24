@@ -73,16 +73,20 @@ html{font-family:Arial, Helvetica, sans-serif;}
   text-transform:uppercase;
 }
 
+header.global{
+	height:109px!important;
+}
+
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{
-	box-shadow:0;
-	background: #cb490f;
+	box-shadow:0!important;
+	background: #cb490f!important;
 	color: #fff;
-	text-transform:uppercase;
+	text-transform:uppercase!important;
 }
 
 .home>header{
-  background:url('/static/themes/teluq/images/teluq-pano.jpg') no-repeat center;
-  height: 390px;
+  background:url('/static/themes/teluq/images/teluq-pano.jpg') no-repeat center!important;
+  height: 390px!important;
   /*overflow: hidden;*/
   padding: 0px;
   width: 100%;

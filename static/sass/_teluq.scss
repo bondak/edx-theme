@@ -58,10 +58,10 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $gray-1;
-$container-bg: $gray-1;
+$body-bg: $white;
+$container-bg: $white;
 $login-register-bg: $gray-1;
-$content-wrapper-bg: $gray-1;
+$content-wrapper-bg: $white;
 $header-image: none;
 $header-bg: $white;
 $courseware-header-image: none;
@@ -104,7 +104,7 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $orange;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 

@@ -74,6 +74,7 @@ header.global, footer,
 header.global{
 	height: 145px;
 	padding-top: 10px;
+	border:none;
 }
 
 .home>header{

@@ -1,11 +1,9 @@
 /**
- * su-identity.css
+ * teluq-identity.css
  * ========================================================
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
-
-html{font-family:Arial, Helvetica, sans-serif;}
 
 #su-header .su-container,
 #su-footer .su-container {
@@ -73,20 +71,8 @@ html{font-family:Arial, Helvetica, sans-serif;}
   text-transform:uppercase;
 }
 
-header.global{
-	height:109px!important;
-}
-
-header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{
-	box-shadow:0!important;
-	background: #cb490f!important;
-	color: #fff;
-	text-transform:uppercase!important;
-}
-
 .home>header{
-  background:url('/static/themes/teluq/images/teluq-pano.jpg') no-repeat center!important;
-  height: 390px!important;
+  height: 390px;
   /*overflow: hidden;*/
   padding: 0px;
   width: 100%;

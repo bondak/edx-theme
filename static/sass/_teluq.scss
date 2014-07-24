@@ -1,5 +1,5 @@
 /****************************************************************************************************
-*   TELUQ theme adapted from Stanford Theming File
+*   Stanford Theming File
 *
 *   Contains all the theme color definitions for the Stanford Open Source MOOC Project
 *
@@ -10,10 +10,8 @@
 //-----------------
 
 //Cardinal Color Variables
-$orange: #8C1515;
+$cardinal-red: #8C1515;
 $dark-red: #820000; //Link Color
-$darkgrey: #424244;
-$blue: #044ea5; //Link Color
 $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Custom, not from palette***
 $cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
@@ -34,7 +32,7 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 $gray-3: #e9e6df; //Block/Course BG Color
 $gray-2: #f2f1eb;
 $gray-1: #fbfbf9; //Main BG Color
-$white: #ffffff;
+$white: $gray-1;
 
 $black: #2e2d29;
 $black-80: #585754;
@@ -45,7 +43,7 @@ $black-80: #585754;
 //  Font Assignment
 //-----------------
 
-$theme-sans-font: 'Arial';
+$theme-sans-font: 'Source Sans';
 $sans-serif: $theme-sans-font, $sans-serif;
 $body-font-family: $sans-serif;
 
@@ -59,10 +57,10 @@ $serif: $theme-serif-font, $serif;
 //  Theme Element Assignments
 //-----------------
 
-$body-bg: $white;
-$container-bg: $white;
-$login-register-bg: $white;
-$content-wrapper-bg: $white;
+$body-bg: $gray-1;
+$container-bg: $gray-1;
+$login-register-bg: $gray-1;
+$content-wrapper-bg: $gray-1;
 $header-image: none;
 $header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $courseware-header-image: none;
@@ -83,8 +81,8 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $blue;
-$link-color-d1: $blue;
+$link-color: $dark-red;
+$link-color-d1: $dark-red;
 $link-hover: $cardinal-light;
 $site-status-color: $cardinal-bg;
 
@@ -94,7 +92,7 @@ $header-graphic-sub-color: $lighter-base-font-color;
 $header-link-color: $dark-red;
 $header-link-hover: $cardinal-light;
 
-$button-color: $orange;
+$button-color: $cardinal-red;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -105,7 +103,7 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $orange;
+$action-primary-bg: $cardinal-red;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
@@ -187,7 +185,7 @@ $footer_margin: ($baseline/4) 0;
 //-----------------
 //  CSS BG Images
 //-----------------
-$homepage-bg-image: url('../themes/teluq/images/ul-header-bg.jpg');
+$homepage-bg-image: url('../themes/teluq/images/stanford-pano.jpg');
 
 $login-banner-image: none;
 $register-banner-image: none;
@@ -199,9 +197,9 @@ $video-thumb-url: '../themes/teluq/images/stanford-video-thumb.png';
 //-----------------
 @mixin login_register_h1_style {
     clip: auto !important;
-    height: 50px;
-    width: 550px;
-    margin-top: 50px;
+    margin-top: 25px;
+    width: 750px;
+    top: 0px !important;
 }
 
 @mixin footer_references_style {

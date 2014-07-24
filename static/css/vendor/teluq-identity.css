@@ -5,6 +5,8 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
+html{font-family:Arial, Helvetica, sans-serif;}
+
 #su-header .su-container,
 #su-footer .su-container {
   margin: 0 auto;
@@ -71,8 +73,15 @@
   text-transform:uppercase;
 }
 
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{
+	box-shadow:0;
+	background: #cb490f;
+	color: #fff;
+	text-transform:uppercase;
+}
+
 .home>header{
-  background:url("http://benhur.teluq.ca/logo_teluq/teluq-pano.jpg") no-repeat;
+  background:url('/static/themes/teluq/images/teluq-pano.jpg') no-repeat center;
   height: 460px;
   /*overflow: hidden;*/
   padding: 0px;

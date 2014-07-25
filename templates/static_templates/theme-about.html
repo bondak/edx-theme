@@ -60,9 +60,10 @@
           <img src="${static.url('http://www.teluq.ca/site/img/joindre/mtl_thumb.jpg')}" alt='${_(u"Les bureaux de la Téluq")}' />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
+<%doc>
       <article>
-        <h2>${_('About')} <span class="edx">de Ulibre</span></h2>
-        
+        <h2>${_('About')} <span class="edx">Stanford Online</span></h2>
+
         <p>${_('{Stanford} is developing new online course material in order to improve on-campus courses and provide broader public access to exciting learning opportunities.').format(Stanford="Stanford")}</p>
         <p>${_("The engineering team at Stanford's Office of the Vice Provost for Online Learning is running and developing on an instance of the {platform_link_start}OpenEdX platform{link_end}. More details are in {details_link_start}this article{link_end}.").format(
             platform_link_start='<a href="http://code.edx.org">',
@@ -70,6 +71,10 @@
             link_end='</a>'
           )}
         </p>
+      </article>
+</%doc>
+      <article>
+          <h2>${_('About')} <span class="edx">de Ulibre</span> - </h2><h3>"Les cours en ligne ouverts et massifs de la TÉLUQ"</h3></p>
       </article>
       <hr class="fade-right-hr-divider">
     </section>

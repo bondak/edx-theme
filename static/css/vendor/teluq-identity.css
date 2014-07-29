@@ -215,6 +215,11 @@ Media queries
   #su-header .su-container{
     width:724px;
   }
+  	header.global nav{position:relative;}
+	header.global .nav-global{display:none;}
+	header.global ol.left{float:right;}
+	
+	header.global .nav-courseware{display:none;position: absolute;right: 10px;}
 
   #bottom-logo {
     margin:-5px 0 10px;

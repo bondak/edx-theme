@@ -95,12 +95,14 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .highlighted-courses .courses .course, .find-courses .courses .course{box-shadow:none;}
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
 
+.highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:240px;}
+
 
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
-.wrapper-footer{font-size:.75em;}
+.wrapper-footer{font-size:.75em;border-top:none;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;font-weight:700;}

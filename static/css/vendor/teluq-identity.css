@@ -69,7 +69,7 @@ header.global{
 	box-shadow:none;
 }
 
-header.global .nav-global{display: block;margin: 88px 0 0 125px;}
+header.global .nav-global{display: block;margin: 88px 0 0 10.20703125%;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #000;margin:0;padding:0 20px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;}
 header.global .nav-global li a{font-weight:700;}
@@ -91,11 +91,12 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child{margin-left:0;}
 
 .highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2{font-family:Verdana,Geneva,sans-serif,sans-serif;font-size:.7291em;}
-.highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;}
+.highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;padding-top: 15px;}
 .highlighted-courses .courses .course, .find-courses .courses .course{box-shadow:none;}
 .highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
 
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:240px;}
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:240px;}
 
 
 .social-sharing{text-align:center;}
@@ -227,12 +228,17 @@ Media queries
 }
 
 @media screen and (min-width: 980px) {
-  /* Bootstrap style */
-  .home>.container,
-  header.global, .wrapper-footer,
-  #su-header .su-container {
-    width:960px;
-  }
+	/* Bootstrap style */
+	.home>.container,
+	header.global, .wrapper-footer,
+	#su-header .su-container {
+		width:960px;
+	}
+  
+	/*header.global .nav-global{display: block;margin: 88px 0 0 125px;}
+	
+	header.global .nav-courseware{display: block;margin-top: 88px;}
+	header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:5px 10px;}  */
 }
 
 @media screen and (min-width: 1024px) {

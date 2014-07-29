@@ -82,12 +82,13 @@ header.global{
 }
 
 header.global .nav-global{display: block;margin: 88px 0 0 125px;}
-header.global .nav-global li{border-left:1px solid #000;margin:0;padding:0 20px;font-size:1em;}
+header.global .nav-global li{border-left:2px solid #000;margin:0;padding:0 20px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;}
 header.global .nav-global li a{font-weight:700;}
 
 header.global .nav-courseware{display: block;margin-top: 81px;}
 header.global .nav-courseware a{text-transformation:uppercase;}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{padding:5px 10px;}
 
 .home>header{
   height: 390px;
@@ -100,32 +101,36 @@ header.global .nav-courseware a{text-transformation:uppercase;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
-.wrapper-footer{
-	font-family: Verdana,Geneva,sans-serif,sans-serif;
-	font-size:.875em;
-}
+.wrapper-footer{font-size:.75em;}
+.wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
+.wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;}
+.wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{text-decoration:underline;border-bottom:none;}
 
-.wrapper-footer a:active,.wrapper-footer a:hover,.wrapper-footer a:focus{text-decoration:underline;border-bottom:none;}
+.wrapper-footer footer ol{clear:both;display: table;}
+.wrapper-footer footer ol:after{content:"";display: table;clear: both;}
 
-#su-footer a {
+footer .references a{margin-left:15px;}
+footer .references a:first-child{margin-left:15px;}
+
+/*#su-footer a {
   color: #e3dfd5;
 }
 
 #su-footer a:hover {
   text-decoration: underline;
-}
+}*/
 
 /* Prevent horizontal scroll bar */
-#su-footer .su-container {
+/*#su-footer .su-container {
   padding: 3px 7px 20px;
 }
 
 #su-footer .su-container .su-row {
   margin: 30px 0 0;
-}
+}*/
 
 /* Align logo and text */
-#su-footer-logo {
+/*#su-footer-logo {
   margin: 0 0 10px;
   padding: 0;
 }
@@ -160,10 +165,10 @@ header.global .nav-courseware a{text-transformation:uppercase;}
 
 #su-footer p.copyright span {
   color: #e3dfd5;
-}
+}*/
 
 /* Footer two columns */
-#su-footer .span2 {
+/*#su-footer .span2 {
   width: 48%;
   float: left;
 }
@@ -176,12 +181,12 @@ header.global .nav-courseware a{text-transformation:uppercase;}
 #su-footer img {
   margin: 0 auto;
   display: block;
-}
+}*/
 
 /* Clear the floats */
-#su-footer .clear {
+/*#su-footer .clear {
   clear: both;
-}
+}*/
 
 /*
 ========================================================

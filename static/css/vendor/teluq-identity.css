@@ -70,6 +70,7 @@ header.global, footer,
   vertical-align:middle;
   margin:0 0 0 20px;
   font-weight:700;
+  color:#ffffff;
   text-transform:uppercase;
 }
 
@@ -80,9 +81,10 @@ header.global{
 	box-shadow:none;
 }
 
-header.global .nav-global{display: block;margin-top: 88px;}
-header.global .nav-global li{border-left:1px solid #000;margin:0;padding:0 20px;font-size:1em;font-weight:700;}
+header.global .nav-global{display: block;margin: 88px 0 0 125px;}
+header.global .nav-global li{border-left:1px solid #000;margin:0;padding:0 20px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;}
+header.global .nav-global li a{font-weight:700;}
 
 header.global .nav-courseware{display: block;margin-top: 81px;}
 
@@ -188,14 +190,10 @@ Media queries
     box-shadow:none;
   }
 
-  #bottom-text {
-    margin-top:2px;
-  }
+  #bottom-text {margin-top:2px;}
 
   /* Remove left padding */
-  #su-header .su-container img {
-    padding:4px 0 0;
-  }
+  #su-header .su-container img {padding:0;}
 
   /* Bootstrap style */  
   section.container,

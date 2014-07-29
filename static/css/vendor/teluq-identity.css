@@ -86,9 +86,8 @@ header.global .nav-global li{border-left:2px solid #000;margin:0;padding:0 20px;
 header.global .nav-global li:first-child{border-left:none;}
 header.global .nav-global li a{font-weight:700;}
 
-header.global .nav-courseware{display: block;margin-top: 81px;}
-header.global .nav-courseware a{text-transformation:uppercase;}
-header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{padding:5px 10px;}
+header.global .nav-courseware{display: block;margin-top: 88px;}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transformation:uppercase;padding:5px 10px;}
 
 .home>header{
   height: 390px;
@@ -97,14 +96,23 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
   width: 100%;
 }
 
+/*SECTION*/
+.highlighted-courses .courses .course header.course-preview hgroup h2, .find-courses .courses .course header.course-preview hgroup h2{font-family:Verdana,Geneva,sans-serif,sans-serif;font-size:.7291em;}
+.highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;}
+
+.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}
+
+
 .social-sharing{text-align:center;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
 .wrapper-footer{font-size:.75em;}
+.wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;}
-.wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{text-decoration:underline;border-bottom:none;}
+.wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{border-bottom:none;}
+.wrapper-footer footer .colophon .nav-colophon li a:hover, .wrapper-footer footer .colophon .nav-colophon li a:focus, .wrapper-footer footer .colophon .nav-colophon li a:active{text-decoration:underline;}
 
 .wrapper-footer footer ol{clear:both;display: table;}
 .wrapper-footer footer ol:after{content:"";display: table;clear: both;}

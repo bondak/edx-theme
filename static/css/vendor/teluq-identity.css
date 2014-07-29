@@ -116,85 +116,14 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .wrapper-footer footer .colophon .nav-colophon li{border-left:1px solid #000;margin-right:0;padding:0 10px;}
 .wrapper-footer footer .colophon .nav-colophon li:first-child{border-left:none;}
 
+
 footer .references a{margin-left:10px;}
 footer .references a:first-child{margin-left:0;}
 
-/*#su-footer a {
-  color: #e3dfd5;
-}
 
-#su-footer a:hover {
-  text-decoration: underline;
-}*/
 
-/* Prevent horizontal scroll bar */
-/*#su-footer .su-container {
-  padding: 3px 7px 20px;
-}
 
-#su-footer .su-container .su-row {
-  margin: 30px 0 0;
-}*/
-
-/* Align logo and text */
-/*#su-footer-logo {
-  margin: 0 0 10px;
-  padding: 0;
-}
-
-#su-footer-text {
-  margin-top: 0;
-}
-
-#su-footer-text ul {
-  margin: 2px 0 0;
-  padding: 0;
-  line-height: 1em;
-}
-
-#su-footer-text ul li {
-  display: block;
-  list-style: none;
-}
-
-#su-footer-text ul li a {
-  font: 13px Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-#su-footer p.copyright {
-  font: 11px Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 30px 0 0;
-  line-height: 1.5em;
-  color: #e3dfd5;
-}
-
-#su-footer p.copyright span {
-  color: #e3dfd5;
-}*/
-
-/* Footer two columns */
-/*#su-footer .span2 {
-  width: 48%;
-  float: left;
-}
-
-#su-footer .span10 {
-  width: 48%;
-  float: right;
-}
-
-#su-footer img {
-  margin: 0 auto;
-  display: block;
-}*/
-
-/* Clear the floats */
-/*#su-footer .clear {
-  clear: both;
-}*/
-
+.instructions .register a:link{color:#148338;border-bottom:1px dotted #148338;}
 /*
 ========================================================
 Media queries
@@ -241,23 +170,24 @@ Media queries
 	}
 	
 	header.global ol.left{float:left;}
-	
-	header.global .nav-courseware{float:right;position:relative;right:0;}	
+	header.global .nav-global{margin: 88px 0 0 10.20703125%;}
+	header.global .nav-courseware{float:right;position:relative;right:0;margin-top: 88px;}	
   
 }
 
 @media screen and (min-width: 1024px) {
   /* Bootstrap style */
   
-  .home>.container,
-  header.global, .wrapper-footer,
-  #su-header .su-container {
-   width:1024px;
-  }
+	.home>.container,
+	header.global, .wrapper-footer,
+	#su-header .su-container {
+		width:1024px;
+	}
+	.view-register .wrapper-footer footer, .view-login .wrapper-footer footer{width:1024px;}
 
-  p.copyright {
-    padding-left:16%;
-  }
+	p.copyright {
+    	padding-left:16%;
+ 	}
 }
 
 /*

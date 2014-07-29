@@ -78,6 +78,12 @@ header.global{
 	box-shadow:none;
 }
 
+.nav-global{display: block;margin-top: 88px;}
+.nav-global li{border-left:1px solid #000;}
+.nav-global li:first-child{border-left:none;}
+
+.nav-courseware{display: block;margin-top: 81px;}
+
 .home>header{
   height: 390px;
   /*overflow: hidden;*/
@@ -86,6 +92,8 @@ header.global{
 }
 
 .social-sharing{text-align:center;}
+.social-sharing a{margin-left:20px;}
+.social-sharing a:first-child{margin-left:none;}
 
 #su-footer a {
   color: #e3dfd5;

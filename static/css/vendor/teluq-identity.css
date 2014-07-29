@@ -103,7 +103,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
-.wrapper-footer{font-size:.75em;border-top:none;box-shadow: 0;}
+.wrapper-footer{font-size:.75em;border-top:none;box-shadow:none;}
 .wrapper-footer footer p, .wrapper-footer footer ol, .wrapper-footer footer ul,
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;font-weight:700;}
@@ -217,8 +217,9 @@ Media queries
   }
   	header.global nav{position:relative;}
 	header.global ol.left{float:right;}
+	header.global .nav-global{margin:88px 0 0 0;}
 	
-	header.global .nav-courseware{position: absolute;right: 10px;}
+	header.global .nav-courseware{position: absolute;right: 10px;margin-top:0;}
 
   #bottom-logo {
     margin:-5px 0 10px;

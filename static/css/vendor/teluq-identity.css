@@ -4,6 +4,8 @@
  * Custom base styles
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
+
+section.container,
 header.global, footer,
 #su-header .su-container,
 #su-footer .su-container {
@@ -78,11 +80,11 @@ header.global{
 	box-shadow:none;
 }
 
-.nav-global{display: block;margin-top: 88px;}
-.nav-global li{border-left:1px solid #000;}
-.nav-global li:first-child{border-left:none;}
+header.global .nav-global{display: block;margin-top: 88px;}
+header.global .nav-global li{border-left:1px solid #000;margin:0;padding:0 20px;font-size:1em;font-weight:700;}
+header.global .nav-global li:first-child{border-left:none;}
 
-.nav-courseware{display: block;margin-top: 81px;}
+header.global .nav-courseware{display: block;margin-top: 81px;}
 
 .home>header{
   height: 390px;
@@ -134,12 +136,12 @@ header.global{
 }
 
 #su-footer-text ul li a {
-  font: 13px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font: 13px Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
 #su-footer p.copyright {
-  font: 11px 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font: 11px Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 30px 0 0;
   line-height: 1.5em;
@@ -195,7 +197,8 @@ Media queries
     padding:4px 0 0;
   }
 
-  /* Bootstrap style */
+  /* Bootstrap style */  
+  section.container,
   header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
@@ -258,10 +261,11 @@ Media queries
 
 @media screen and (min-width: 980px) {
   /* Bootstrap style */
+  section.container,
   header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
-    width:940px;
+    width:960px;
   }
 
   #su-footer .span2 {
@@ -273,12 +277,13 @@ Media queries
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   /* Bootstrap style */
   
+  section.container,
+  header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
-   /* width:1180px;*/
    width:1024px;
   }
 

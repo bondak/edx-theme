@@ -105,18 +105,18 @@ $button-bg-hover-color: $gray-1;
 
 // actions - primary
 $action-primary-bg: $orange;
-$action-primary-fg: $gray-2;
+$action-primary-fg: $white;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-red;
+$action-primary-focused-bg: $gray-3; // anciennement $dark-red
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-red;
+$action-primary-active-bg: $gray-3; // anciennement $dark-red
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
-$action-primary-active-focused-fg: $gray-2;
+$action-primary-active-focused-fg: $white;
 $action-primary-active-focused-shadow: none;
 
 // disabled
@@ -171,7 +171,7 @@ $course-header-bg: transparentize($gray-1, .1);
 
 $sidebar-chapter-bg-top: transparentize($gray-1, .3);
 $sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
-$sidebar-chapter-bg: $gray-2;
+$sidebar-chapter-bg: $white;
 $sidebar-active-image: $gray-3;
 
 $form-bg-color: $gray-1;

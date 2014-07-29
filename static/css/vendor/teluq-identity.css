@@ -5,7 +5,7 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
-section.container,
+.home>.container,
 header.global, footer,
 #su-header .su-container,
 #su-footer .su-container {
@@ -87,6 +87,7 @@ header.global .nav-global li:first-child{border-left:none;}
 header.global .nav-global li a{font-weight:700;}
 
 header.global .nav-courseware{display: block;margin-top: 81px;}
+header.global .nav-courseware a{text-transformation:uppercase;}
 
 .home>header{
   height: 390px;
@@ -196,7 +197,7 @@ Media queries
   #su-header .su-container img {padding:0;}
 
   /* Bootstrap style */  
-  section.container,
+  .home>.container,
   header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
@@ -259,7 +260,7 @@ Media queries
 
 @media screen and (min-width: 980px) {
   /* Bootstrap style */
-  section.container,
+  .home>.container,
   header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {
@@ -278,7 +279,7 @@ Media queries
 @media screen and (min-width: 1024px) {
   /* Bootstrap style */
   
-  section.container,
+  .home>.container,
   header.global, footer,
   #su-header .su-container,
   #su-footer .su-container {

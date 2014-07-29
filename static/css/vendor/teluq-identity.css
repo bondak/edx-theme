@@ -77,6 +77,8 @@ header.global .nav-global li a{font-weight:700;}
 header.global .nav-courseware{display: block;margin-top: 88px;}
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:5px 10px;}
 
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
+
 .home>header{
   height: 390px;
   /*overflow: hidden;*/

@@ -27,19 +27,26 @@
 ## We don't want extra links inside the navigation dropdown
 <%block name="navigation_dropdown_menu_links" />
 
+## ${_('About')}
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">À propos</a>
+    <a href="${marketing_link('ABOUT')}" title="Page Présentation">Présentation</a>
   </li>
 </%block>
 
+## ${_('About')}
+## ${_('Find Courses')}
+## Ajout Annick -> ajout du lien FAQ
 ## When authenticated, show both the about page and find courses
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}">${_('About')}</a>
+    <a href="${marketing_link('ABOUT')}" title="Page Présentation">Présentation</a>
   </li>
   <li class="nav-global-02">
-    <a href="${marketing_link('COURSES')}">${_('Find Courses')}</a>
+    <a href="${marketing_link('COURSES')}" title="Page Les cours">Les cours</a>
   </li>
+  <li class="nav-global-03">
+    <a href="${marketing_link('FAQ')}" title="Page FAQ">FAQ</a>
+  </li>  
 </%block>

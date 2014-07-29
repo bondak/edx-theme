@@ -18,10 +18,12 @@
 
 <section class="home">
 
-<%doc>  
+  
   <header>
     <div class="outer-wrapper">
       <div class="title">
+      
+      <%doc>
         <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
@@ -58,8 +60,11 @@
             </div>
           </section>
           % endif
+          
+        </%doc> 
       </div>
 
+	<%doc>
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
           <div class="hero">
@@ -67,9 +72,11 @@
           </div>
         </a>
       % endif
+    
+	</%doc>
+    
     </div>
   </header>  
-</%doc>
 
 
   <section class="container">

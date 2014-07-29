@@ -67,8 +67,8 @@ $header-bg: $white;
 $courseware-header-image: none;
 $courseware-header-bg: transparentize(lighten($sandstone, 18.5%), .25);
 $footer-bg: $white;
-//$courseware-footer-border: 1px solid $beige-60;
-//$courseware-footer-shadow: box-shadow(2px 1px 0 rgba(0, 0, 0, .1));
+$courseware-footer-border: none;
+$courseware-footer-shadow: none;
 $courseware-footer-margin: 50px;
 
 $faded-hr-image-1: linear-gradient($beige-60 0%, $beige-60);
@@ -94,7 +94,7 @@ $header-link-color: $black;
 $header-link-hover: $blue;
 
 $button-color: $orange;
-$button-archive-color: $gray;
+$button-archive-color: $gray-1;
 
 $shadow-color: $gray;
 
@@ -109,12 +109,12 @@ $action-primary-fg: $white;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $gray-3; // anciennement $dark-red
-$action-primary-focused-fg: $gray-1;
+$action-primary-focused-bg: $gray; // anciennement $dark-red
+$action-primary-focused-fg: $white;
 
 // current or active navigation item
 $action-primary-active-bg: $gray-3; // anciennement $dark-red
-$action-primary-active-fg: $gray-1;
+$action-primary-active-fg: $gray;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $white;
 $action-primary-active-focused-shadow: none;

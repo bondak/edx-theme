@@ -9,20 +9,27 @@
     <div class="colophon">
       <nav class="nav-colophon">
         <ol>
-          <li><a href="${reverse('tos')}">${_('Terms of Service')}</a></li>
-          <li><a href="${reverse('tos')}#privacy">${_('Privacy Policy')}</a></li>
-          <li><a href="${reverse('tos')}#honor">${_('Honor Code')}</a></li>
-          <li><a href="${reverse('tos')}#copyright">${_('Copyright')}</a></li>
-          <li><a href="${reverse('about_edx')}#careers">${_('Careers')}</a></li>
-          <li><a href="${reverse('about_edx')}#contact">${_('Contact')}</a></li>
+          <li><a href="${marketing_link('ABOUT')}">Présentation</a></li>
           <li><a href="https://stanfordonline.zendesk.com/hc">${_('Help')}</a></li>
+          <li><a href="${reverse('about_edx')}#contact">${_('Contact')}</a></li>
+        </ol>       
+        <ol>
+          <li><a href="${reverse('tos')}">${_('Terms of Service')}</a></li>
+          <li><a href="${reverse('tos')}#honor">${_('Honor Code')}</a></li>
+          <li><a href="${reverse('tos')}#privacy">${_('Privacy Policy')}</a></li>
+          <li><a href="${reverse('tos')}#copyright">${_('Copyright')}</a></li>  
+          ##<li><a href="${reverse('about_edx')}#careers">${_('Careers')}</a></li>
         </ol>
       </nav>
     </div>
     <div class="references">
-      <a href="http://openedx.org" style="padding-bottom:10px">
+      <a href="http://www.teluq.ca">
+        <span class="sr">Des cours développés par la TÉLUQ</span>
+        <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_noir.png" height="30" alt="TÉLUQ. L'université. Aujourd'hui."/>
+      </a>
+      <a href="http://openedx.org">
         <span class="sr">${_('Powered by {platform_name}').format(platform_name='Open edX')}</span>
-        <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png" height="40" alt="${_('Powered by {platform_name}').format(platform_name='Open edX')}"/>
+        <img src="https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png" height="30" alt="${_('Powered by {platform_name}').format(platform_name='Open edX')}"/>
       </a>
     </div>
   </footer>

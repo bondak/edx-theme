@@ -100,6 +100,13 @@ header.global .nav-courseware a{text-transformation:uppercase;}
 .social-sharing a{margin-left:20px;}
 .social-sharing a:first-child{margin-left:none;}
 
+.wrapper-footer{
+	font-family: Verdana,Geneva,sans-serif,sans-serif;
+	font-size:.875em;
+}
+
+.wrapper-footer a:active,.wrapper-footer a:hover,.wrapper-footer a:focus{text-decoration:underline;border-bottom:none;}
+
 #su-footer a {
   color: #e3dfd5;
 }

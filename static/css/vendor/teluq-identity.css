@@ -73,6 +73,7 @@ header.global{
 
 header.global.slim h1.logo img{height:105px;}
 header.global nav{height:auto;}
+header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;margin: 88px 0 0 10%;}/*125px;*/
 header.global .nav-global.authenticated{margin: 88px 0 0 5%;}
@@ -85,7 +86,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
-.home>header, header.global.slim{
+.home>header{
   height: 390px;
   /*overflow: hidden;*/
   padding: 0px;

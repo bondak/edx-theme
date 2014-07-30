@@ -1,4 +1,5 @@
 ## mako
+## -*- coding: utf-8 -*-
 <%!
   from django.core.urlresolvers import reverse
   from django.utils.translation import ugettext as _
@@ -7,8 +8,8 @@
 
 <%inherit file="/main.html" />
 
-<%block name="title"><title>${_('About {PLATFORM_NAME}').format(PLATFORM_NAME=PLATFORM_NAME)}</title></%block>
-
+## <%block name="title"><title>${_('About {PLATFORM_NAME}').format(PLATFORM_NAME=PLATFORM_NAME)}</title></%block> ##
+<%block name="title"><title>À propos de Ulibre</title></%block>
 <%block name="js_extra">
   <script type="text/javascript">
     $(function() {
@@ -22,9 +23,9 @@
       } else if ( document.location.href.indexOf('#contact') > -1 ) {
         $('section#contact').show();
         $('#about-menu a.contact').addClass('active');
-      } else if ( document.location.href.indexOf('#careers') > -1 ) {
-        $('section#careers').show();
-        $('#about-menu a.careers').addClass('active');
+##      } else if ( document.location.href.indexOf('#careers') > -1 ) {
+##       $('section#careers').show();
+##        $('#about-menu a.careers').addClass('active');
       } else {
         $('section#about').show();
         $('#about-menu a.about').addClass('active');
@@ -46,7 +47,7 @@
   <nav id="about-menu">
     <a href="#about" class="about active">${_('About')}</a>
     <a href="#faq" class="faq">${_('Faq')}</a>
-    <a href="#careers" class="careers">${_('Careers')}</a>
+##    <a href="#careers" class="careers">${_('Careers')}</a>
     <a href="#contact" class="contact">${_('Contact')}</a>
   </nav>
 
@@ -55,12 +56,14 @@
 ## About Section ##
     <section class="message left" id="about">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+ ##       <img src="${static.url('themes/teluq/images/quad.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+          <img src="${static.url('http://www.teluq.ca/site/img/joindre/mtl_thumb.jpg')}" alt='${_(u"Les bureaux de la Téluq")}' />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
+<%doc>
       <article>
         <h2>${_('About')} <span class="edx">Stanford Online</span></h2>
-        
+
         <p>${_('{Stanford} is developing new online course material in order to improve on-campus courses and provide broader public access to exciting learning opportunities.').format(Stanford="Stanford")}</p>
         <p>${_("The engineering team at Stanford's Office of the Vice Provost for Online Learning is running and developing on an instance of the {platform_link_start}OpenEdX platform{link_end}. More details are in {details_link_start}this article{link_end}.").format(
             platform_link_start='<a href="http://code.edx.org">',
@@ -69,6 +72,22 @@
           )}
         </p>
       </article>
+</%doc>
+
+<article>
+    <h2>${_('About')} <span class="edx">de Ulibre - les cours ouverts et massifs de la TÉLUQ</span></h2>
+
+    <p>La TÉLUQ, pionnière de la formation à distance en ligne au Québec, entreprend la diffusion de cours en ligne ouverts et massifs ou CLOM (en anglais MOOC - Massive Open Online Courses) en offrant dès l’automne deux cours gratuits et ouverts à tous :
+    <ul>
+       <li>Introduction à l’histoire politique du Québec</li>
+       <p></p>
+       <li>Conciliation travail-famille - défis et solutions</li>
+    </ul>
+    <p>De niveau universitaire, ces cours traitent de sujets uniques dans la francophonie. Ils ont été créés par une équipe chevronnée et rendent accessible à tous du contenu de qualité, dans une formule dynamique et interactive.</p>
+    <p>Pour en savoir plus et pour vous inscrire dès maintenant à ces cours, une seule adresse : <a href="http://www.ulibre.teluq.ca">www.ulibre.ca</a>.
+   </p>
+</article>
+
       <hr class="fade-right-hr-divider">
     </section>
 
@@ -76,7 +95,7 @@
 ## FAQ Section ##
     <section class="message left" id="faq">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/memchu.jpg')}" alt="${_('Stanford Memorial Church Facade')}" />
+        <img src="${static.url('themes/teluq/images/memchu.jpg')}" alt="${_('Stanford Memorial Church Facade')}" />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
       <article>
@@ -101,11 +120,11 @@
       <hr class="fade-right-hr-divider">
     </section>
 
-
+<%doc>
 ## Careers Section ##
     <section class="message left" id="careers">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/tree-light.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
+        <img src="${static.url('themes/teluq/images/tree-light.jpg')}" alt="${_('Stanford Quad with Hoover Tower')}" />
           <!-- Image Copyright owned by Giulio Gratta -->
       </div>
       <article>
@@ -151,12 +170,12 @@
       </article>
       <hr class="fade-right-hr-divider">
     </section>
-
+</%doc>
 
 ## Contact Section ##
     <section class="message left" id="contact">
       <div class="photo">
-        <img src="${static.url('themes/stanford/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
+        <img src="${static.url('themes/teluq/images/dish.jpg')}" alt="${_('Stanford Dish by Twilight')}" />
           <!-- Image Copyright owned by Stanford University -->
       </div>
       <article id="stanford-OpenEdX-contact">

@@ -5,7 +5,7 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
-.home>.container,
+.container,
 header.global, .wrapper-footer,
 #su-header .su-container {
   margin: 0 auto;
@@ -89,7 +89,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 /*SECTION*/
 .courses-listing{width:825px;}
-.highlighted-courses .courses .courses-listing{margin:0 auto;}
+.highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
 .highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child{margin-left:0;}
 
@@ -142,7 +142,7 @@ Media queries
   #su-header .su-container img {padding:0;}
 
   /* Bootstrap style */  
-  .home>.container,
+  .container,
   header.global, .wrapper-footer,
   #su-header .su-container{
     width:760px;
@@ -167,7 +167,7 @@ Media queries
 
 @media screen and (min-width: 980px) {
 	/* Bootstrap style */
-	.home>.container,
+	.container,
 	header.global, .wrapper-footer,
 	#su-header .su-container {
 		width:960px;
@@ -184,7 +184,7 @@ Media queries
 @media screen and (min-width: 1024px) {
   /* Bootstrap style */
   
-	.home>.container,
+	.container,
 	header.global, .wrapper-footer,
 	#su-header .su-container {
 		width:1024px;

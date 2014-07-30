@@ -64,7 +64,7 @@ header.global,header.global.slim, .wrapper-footer,
   text-transform:uppercase;
 }
 
-header.global{
+header.global,header.global.slim{
 	height: 145px;
 	padding-top: 10px;
 	border:none;
@@ -72,6 +72,7 @@ header.global{
 }
 
 header.global.slim h1.logo img{height:105px;}
+header.global.slim h1.logo:before{background:none;}
 header.global nav{height:auto;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
@@ -107,7 +108,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:240px;}
 .highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:240px;}
 
-nav.course-material .inner-wrapper{background:#3f3c30;}
+nav.course-material{background:#3f3c30;}
 nav.course-material ol.course-tabs{border-radius:none;padding:0;margin:0 auto;}
 nav.course-material ol.course-tabs li a{color:#fff;}
 

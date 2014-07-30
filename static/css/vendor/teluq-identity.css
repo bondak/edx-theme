@@ -5,6 +5,8 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
+.content-wrapper{border-top: 2px solid #666;}
+
 .container,
 header.global, .wrapper-footer,
 #su-header .su-container {
@@ -69,6 +71,9 @@ header.global{
 	box-shadow:none;
 }
 
+header.global.slim h1.logo img{height: 390px;}
+header.global nav{height:auto;}
+
 header.global .nav-global{display: block;margin: 88px 0 0 10%;}/*125px;*/
 header.global .nav-global.authenticated{margin: 88px 0 0 5%;}
 header.global .nav-global li{border-left:2px solid #000;margin:0;padding:0 20px;font-size:1em;}
@@ -80,7 +85,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
-.home>header{
+.home>header, header.global.slim{
   height: 390px;
   /*overflow: hidden;*/
   padding: 0px;
@@ -100,6 +105,9 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:240px;}
 .highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:240px;}
+
+
+nav.course-material ol.course-tabs{background:#3f3c30;}
 
 
 .social-sharing{text-align:center;}

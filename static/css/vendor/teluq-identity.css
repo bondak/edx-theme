@@ -75,7 +75,7 @@ header.global.slim h1.logo{margin: -2px 39px 0px 0px;padding:0;}
 header.global.slim h1.logo:before{background:none;}
 header.global.slim h1.logo img{height:109px;}
 header.global nav{height:auto;}
-header.global.slim nav{padding-top:0;}
+header.global.slim nav{padding: 18px 10px 0px;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;margin: 88px 0 0 10%;}/*125px;*/

@@ -87,6 +87,8 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
+.course-info header.course-profile .intro-inner-wrapper{box-shadow:none;}
+
 .home>header{
   height: 390px;
   /*overflow: hidden;*/
@@ -155,7 +157,8 @@ Media queries
   /* Bootstrap style */  
   .container,
   header.global,header.global.slim, .wrapper-footer,
-  #su-header .su-container{
+  #su-header .su-container,
+  .course-info header.course-profile .intro-inner-wrapper{
     width:760px;
   }
   	header.global nav{position:relative;}
@@ -182,7 +185,8 @@ Media queries
 	/* Bootstrap style */
 	.container,
 	header.global,header.global.slim, .wrapper-footer,
-	#su-header .su-container {
+	#su-header .su-container,
+	.course-info header.course-profile .intro-inner-wrapper {
 		width:960px;
 	}
 	
@@ -201,7 +205,8 @@ Media queries
   
 	.container,
 	header.global,header.global.slim, .wrapper-footer,
-	#su-header .su-container {
+	#su-header .su-container,
+	.course-info header.course-profile .intro-inner-wrapper {
 		width:1024px;
 	}
 	.view-register .wrapper-footer footer, .view-login .wrapper-footer footer{width:1024px;}

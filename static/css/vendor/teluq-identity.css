@@ -95,12 +95,16 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover:not(:disabled){background:#cb490f;}
 .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.add-to-cart{border:1px solid #999;color: #999;}
 
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta>a.find-courses, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta a.add-to-cart{background:#666;}
+
 
 .home>header{
-  height: 390px;
+  height: 389px;
   /*overflow: hidden;*/
   padding: 0px;
   width: 100%;
+  border-bottom:none;
+  box-shadow:none;
 }
 .find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
 

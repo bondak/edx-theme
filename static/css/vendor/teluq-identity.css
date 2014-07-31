@@ -115,11 +115,12 @@ box-shadow:none;border:none;}
   border-bottom:none;
   box-shadow:none;
 }
-.find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
-
-.dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}
 
 /*SECTION*/
+
+/*Les cours*/
+.find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
+
 .courses-listing{width:825px;}
 .highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
@@ -136,6 +137,13 @@ box-shadow:none;border:none;}
 nav.course-material{background:#3f3c30;}
 nav.course-material ol.course-tabs{border-radius:none;padding:0;margin:0 auto;}
 nav.course-material ol.course-tabs li a{color:#fff;}
+
+/*Formulaire*/
+.view-register .introduction header{height: 90px;}
+.view-register .introduction header .title, .view-login .introduction header .title, .view-passwordreset .introduction header .title{left:20px;border-bottom:1px solid #666;}
+
+/*Tableau de bord*/
+.dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}
 
 
 .social-sharing{text-align:center;}

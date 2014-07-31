@@ -87,6 +87,7 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
+.course-info header.course-profile{border-bottom:none;padding-top: 129px;height: 260px;}
 .course-info header.course-profile .intro-inner-wrapper{box-shadow:none;}
 
 .home>header{

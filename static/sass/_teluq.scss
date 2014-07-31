@@ -84,7 +84,7 @@ $lighter-base-font-color: $black;
 $very-light-text: $gray-1;
 
 $link-color: $blue;
-$link-color-d1: $green;
+$link-color-d1: $blue;
 $link-hover: $green;
 $site-status-color: $green;
 
@@ -165,9 +165,9 @@ $dot-color: $beige-60;
 
 $course-bg-color: $white;
 $course-bg-image: none;
-$account-content-wrapper-bg: $gray-1;
+$account-content-wrapper-bg: $white;
 
-$course-profile-bg: $gray-1;
+$course-profile-bg: $white;
 $course-header-bg: transparentize($gray-1, .1);
 
 $sidebar-chapter-bg-top: transparentize($gray-1, .3);
@@ -175,8 +175,8 @@ $sidebar-chapter-bg-bottom: transparentize($gray-1, .9);
 $sidebar-chapter-bg: $white;
 $sidebar-active-image: $gray-3;
 
-$form-bg-color: $gray-1;
-$modal-bg-color: $gray-1;
+$form-bg-color: $white;
+$modal-bg-color: $white;
 
 //TOP HEADER IMAGE MARGIN
 $header_image_margin:0px;

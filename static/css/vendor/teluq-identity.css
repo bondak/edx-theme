@@ -5,7 +5,7 @@
  * Last edited: 4/19/2013 by Nate Hardison <nate@edx.org>
  */
 
-.content-wrapper{border-top: 2px solid #666;}
+.content-wrapper{border-top: 1px solid #666;}
 
 .container,
 header.global,header.global.slim, .wrapper-footer,

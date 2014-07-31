@@ -139,8 +139,9 @@ nav.course-material ol.course-tabs{border-radius:none;padding:0;margin:0 auto;}
 nav.course-material ol.course-tabs li a{color:#fff;}
 
 /*Formulaire*/
-.view-register .introduction header{height: 90px;}
+.view-register .introduction header{height: 90px;border:none;}
 .view-register .introduction header .title, .view-login .introduction header .title, .view-passwordreset .introduction header .title{left:20px;border-bottom:1px solid #666;}
+.view-register .introduction header h1, .view-login .introduction header h1, .view-passwordreset .introduction header h1{margin-bottom:0;padding-bottom:0;}
 
 /*Tableau de bord*/
 .dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}

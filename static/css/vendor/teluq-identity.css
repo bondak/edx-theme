@@ -71,9 +71,11 @@ header.global,header.global.slim{
 	box-shadow:none;
 }
 
-header.global.slim h1.logo img{height:105px;}
+header.global.slim h1.logo{margin: -2px 39px 0px 0px;padding:0;}
 header.global.slim h1.logo:before{background:none;}
+header.global.slim h1.logo img{height:109px;}
 header.global nav{height:auto;}
+header.global.slim nav{padding-top:0;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;margin: 88px 0 0 10%;}/*125px;*/
@@ -87,8 +89,12 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
-.course-info header.course-profile{border-bottom:none;padding-top: 129px;height: 260px;}
+
+.course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 129px;height: 260px;}
 .course-info header.course-profile .intro-inner-wrapper{box-shadow:none;}
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta strong:hover:not(:disabled){background:#cb490f;}
+.course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.register, .course-info header.course-profile .intro-inner-wrapper .intro .main-cta span.add-to-cart{border:1px solid #999;color: #999;}
+
 
 .home>header{
   height: 390px;
@@ -96,6 +102,9 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
   padding: 0px;
   width: 100%;
 }
+.find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
+
+.dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}
 
 /*SECTION*/
 .courses-listing{width:825px;}

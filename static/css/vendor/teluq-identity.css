@@ -74,9 +74,9 @@ header.global,header.global.slim{
 	background:#424244;
 }
 
-header.global nav{height:auto;}
+header.global nav{height:auto;padding:3px 0 0;}
 header.global nav h1.logo{display:none;}
-header.global.slim nav{padding:3px 0px 0px;}
+header.global.slim nav{padding:3px 0 0;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;}/*125px;*/

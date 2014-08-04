@@ -10,18 +10,21 @@
 <%block name="navigation_top">
   <div id="su-header">
     <div class="su-container">
+      <p>Les cours en ligne ouverts et massifs (CLOM - MOOC)</p>
+      
       <a href="http://www.teluq.ca" target="_blank" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
         <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_couleur.png" alt="TÉLUQ L'université. Aujourd'hui." width="131" height="45">
       </a>
-      <p>Les cours en ligne ouverts et massifs (CLOM - MOOC)</p>
     </div>
   </div>
 </%block>
 
 ## TODO: this will eventually be moved to the Sass
+<%doc>
 <%block name="navigation_logo">
   <img src="${static.url('themes/teluq/images/teluq-ulibre-logo.png')}" width="325" height="109" alt="U libre" />
 </%block>
+</%doc>
 
 ## We don't want extra links inside the navigation dropdown
 <%block name="navigation_dropdown_menu_links" />

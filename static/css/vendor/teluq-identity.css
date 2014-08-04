@@ -64,6 +64,11 @@ header.global,header.global.slim, .wrapper-footer,
   text-transform:uppercase;
 }
 
+#su-header h1.logo{margin: -2px 39px 0px 0px;padding:0;}
+#su-header h1.logo:before{background:none;}
+#su-header h1.logo img{height:109px;}
+
+
 header.global,header.global.slim{
 	height: 145px;
 	padding-top: 10px;
@@ -71,10 +76,8 @@ header.global,header.global.slim{
 	box-shadow:none;
 }
 
-header.global.slim h1.logo{margin: -2px 39px 0px 0px;padding:0;}
-header.global.slim h1.logo:before{background:none;}
-header.global.slim h1.logo img{height:109px;}
 header.global nav{height:auto;}
+header.global nav h1.logo{display:none;}
 header.global.slim nav{padding: 18px 10px 0px;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 

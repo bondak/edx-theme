@@ -79,12 +79,13 @@ header.global nav h1.logo{display:none;}
 header.global.slim nav{padding: 18px 10px 0px;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
-header.global .nav-global{display: block;margin: 0px 0 0 10%;}/*125px;*/
+header.global .nav-global{display: block;}/*125px;*/
 header.global .nav-global.authenticated{margin: 0px 0 0 5%;}
 header.global .nav-global li{border-left:2px solid #000;margin:0;padding:0 20px;font-size:1em;}
-header.global .nav-global li:first-child{border-left:none;}
+header.global .nav-global li:first-child{border-left:none;margin-left:0;}
 header.global .nav-global li a{font-weight:700;}
 
+header.global .nav-courseware{margin-top:0;}
 header.global .nav-courseware,header.global .user{display: block;}
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:5px 10px;}
 
@@ -196,7 +197,6 @@ Media queries
   }
   	header.global nav{position:relative;}
 	header.global ol.left{float:right;}
-	header.global .nav-global{margin:0;}
 	header.global .nav-global.authenticated li{padding: 0 10px;}
 	
 	header.global .nav-courseware,header.global .user{position: absolute;right: 10px;}
@@ -224,7 +224,6 @@ Media queries
 	}
 	
 	header.global ol.left{float:left;}
-	header.global .nav-global{margin: 0 0 0 10%;}
 	header.global .nav-global.authenticated{margin:0 0 0 5%;}
 	header.global .nav-global.authenticated li{padding: 0 20px;}
 	header.global .nav-courseware,header.global .user{float:right;position:relative;right:0;}	

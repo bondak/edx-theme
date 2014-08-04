@@ -162,7 +162,7 @@ nav.course-material ol.course-tabs li a{color:#fff;}
 .wrapper-footer footer .colophon .nav-colophon li{border-left:1px solid #000;margin-right:0;padding:0 10px;}
 .wrapper-footer footer .colophon .nav-colophon li:first-child{border-left:none;}
 
-
+.wrapper-footer footer .references{width:auto;display:block;float:right;}
 footer .references a{margin-left:10px;}
 footer .references a:first-child{margin-left:0;}
 

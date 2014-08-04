@@ -41,7 +41,7 @@ header.global nav,header.global.slim nav, .wrapper-footer,
 #su-header {
   background: #ffffff;
   box-shadow: none;
-  height:159px;
+  min-height:159px;
 }
 
 /* Prevent flush left */
@@ -79,11 +79,10 @@ header.global .nav-global{display: block;margin-left:15px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #fff;margin:0;padding:0 25px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;padding-left:0;}
 header.global .nav-global li a{font-weight:700;color:#fff;}
+.view-howitworks .nav-global-01 a, .view-courses .nav-global-02 a, .view-schools .nav-global-03 a, .view-register .nav-global-04 a,
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
-header.global .nav-courseware, header.global .user{border-radius:none;}
-
-header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;}
+header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;border-radius:0;}
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
@@ -113,6 +112,8 @@ box-shadow:none;border:none;}
   border-bottom:none;
   box-shadow:none;
 }
+
+.login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{box-shadow:none;border-radius:0;}
 
 /*SECTION*/
 

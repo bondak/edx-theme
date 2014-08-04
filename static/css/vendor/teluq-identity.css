@@ -84,7 +84,7 @@ header.global .nav-global li a:active,header.global .nav-global li a:hover,heade
 
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;border-radius:0;}
 
-.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
+.view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{border:none;margin-left:0;}
 
 
 .course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 129px;height: 260px;}

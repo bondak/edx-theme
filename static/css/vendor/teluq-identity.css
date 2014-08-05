@@ -6,7 +6,13 @@
  */
 .container,
 header.global nav,header.global.slim nav, .wrapper-footer,
-#su-header .su-container {margin: 0 auto;}
+#su-header .su-container,
+.container.about>nav, section.about.outside-app>nav,
+section.vision {margin: 0 auto;}
+
+.container.about>nav, section.about.outside-app>nav{margin-bottom:80px;}
+
+p a:active,p a:hover,p a:focus{color:#044ea5;}
 
 #su-header .span2 {
   display: block;

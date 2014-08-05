@@ -86,6 +86,10 @@ header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
+.highlighted-courses .courses .course .status, .find-courses .courses .course .status{background:#148338;}
+.highlighted-courses .courses .course .status:after, .find-courses .courses .course .status:after{border-bottom: 6px solid #0d5424;}
+.highlighted-courses .courses .course .status{border-radius: 0;}
+
 
 .course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 129px;height: 260px;}
 .course-info header.course-profile .intro-inner-wrapper{box-shadow:none;}
@@ -183,6 +187,7 @@ Media queries
 	#su-header .su-container img {padding:0;}
 	
 	/* Bootstrap style */  
+	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
@@ -190,7 +195,7 @@ Media queries
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs{ width:760px; }
   
-	header.global .nav-global.authenticated li{padding: 0 10px;}
+	/*header.global .nav-global.authenticated li{padding: 0 10px;}*/
 		
 	#bottom-text {margin-top:2px;}
   	#bottom-logo {  margin:-5px 0 10px; }
@@ -204,6 +209,7 @@ Media queries
 
 @media screen and (min-width: 980px) {
 	/* Bootstrap style */
+	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,
@@ -211,12 +217,13 @@ Media queries
 	.view-register header.global nav, .view-login header.global nav,
 	nav.course-material ol.course-tabs {width:960px;}
 	
-	header.global .nav-global.authenticated{margin:0;}
-	header.global .nav-global.authenticated li{padding: 0 25px;}	  
+	/*header.global .nav-global.authenticated{margin:0;}
+	header.global .nav-global.authenticated li{padding: 0 25px;}*/	  
 }
 
 @media screen and (min-width: 1024px) {
 	/* Bootstrap style */  
+	.view-register .container, .view-register section.outside-app, .view-register .introduction, .view-login .container, .view-login section.outside-app, .view-login .introduction, .view-passwordreset .container, .view-passwordreset section.outside-app, .view-passwordreset .introduction,
 	.container,
 	header.global nav,header.global.slim nav, .wrapper-footer,
 	#su-header .su-container,

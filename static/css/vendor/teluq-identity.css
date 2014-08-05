@@ -76,13 +76,15 @@ header.global.slim nav{padding:3px 0 0;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;margin-left:15px;}/*125px;*/
-header.global .nav-global li{border-left:2px solid #fff;margin:0;padding:0 25px;font-size:1em;}
+header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;padding-left:0;}
 header.global .nav-global li a{font-weight:700;color:#fff;}
 .view-howitworks .nav-global-01 a, .view-courses .nav-global-02 a, .view-schools .nav-global-03 a, .view-register .nav-global-04 a,
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;border-radius:0;}
+header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .view-partial-mktgregister .action.is-registered:hover, .view-partial-mktgregister .action.registration-closed:hover, .view-partial-mktgregister .action.coming-soon:hover{
+background:#747474;}
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
 
@@ -146,6 +148,8 @@ nav.course-material ol.course-tabs li a{color:#fff;}
 .view-register .introduction header{height: 90px;border:none;}
 .view-register .introduction header .title, .view-login .introduction header .title, .view-passwordreset .introduction header .title{left:20px;border-bottom:1px solid #666;}
 .view-register .introduction header h1, .view-login .introduction header h1, .view-passwordreset .introduction header h1{margin-bottom:0;padding-bottom:0;}
+
+header.global ol li.primary>a{border:none;}
 
 /*Tableau de bord*/
 .dashboard .my-courses .course .cover{border-bottom:none;padding:0px;}

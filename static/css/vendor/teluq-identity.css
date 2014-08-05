@@ -71,10 +71,10 @@ header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
 header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
 
-header.global .nav-global{display: block;margin-left:15px;}/*125px;*/
+header.global .nav-global{display: block;margin-left:15px;margin-top:8px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:1em;}
 header.global .nav-global li:first-child{border-left:none;padding-left:0;}
-header.global .nav-global li a{font-weight:700;color:#fff;}
+header.global .nav-global li a{font-weight:500;color:#fff;}
 .view-howitworks .nav-global-01 a, .view-courses .nav-global-02 a, .view-schools .nav-global-03 a, .view-register .nav-global-04 a,
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
@@ -162,7 +162,7 @@ header.global ol li.primary>a{border:none;}
 .wrapper-footer footer a:link, .wrapper-footer footer a:visited, 
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{font-family: Verdana,Geneva,sans-serif,sans-serif;font-weight:700;}
 .wrapper-footer footer a:hover, .wrapper-footer footer a:focus, .wrapper-footer footer a:active{border-bottom:none;}
-.wrapper-footer footer .colophon .nav-colophon li a:hover, .wrapper-footer footer .colophon .nav-colophon li a:focus, .wrapper-footer footer .colophon .nav-colophon li a:active{border-bottom:1px solid #044ea5;}
+.wrapper-footer footer .colophon .nav-colophon li a:hover, .wrapper-footer footer .colophon .nav-colophon li a:focus, .wrapper-footer footer .colophon .nav-colophon li a:active{border-bottom:1px solid #044ea5; color:#044ea5;}
 
 .wrapper-footer footer ol{clear:both;display: table;margin-top:10px;}
 .wrapper-footer footer ol:after{content:"";display: table;clear: both;}

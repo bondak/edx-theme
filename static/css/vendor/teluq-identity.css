@@ -6,9 +6,7 @@
  */
 .container,
 header.global nav,header.global.slim nav, .wrapper-footer,
-#su-header .su-container {
-  margin: 0 auto;
-}
+#su-header .su-container {margin: 0 auto;}
 
 #su-header .span2 {
   display: block;
@@ -28,26 +26,18 @@ header.global nav,header.global.slim nav, .wrapper-footer,
 
 #su-header .su-container{position:relative;}
 #su-header .su-container a.logo_teluq {position:absolute;right:0;top:0;}
-
-#su-header .su-container:after {
-  clear: both;
-}
-
-#su-header .row:after{
-  clear: both;
-}
+#su-header .su-container:after {clear: both;}
+#su-header .row:after{clear: both;}
 
 /* Background gradient */
 #su-header {
   background: #ffffff;
   box-shadow: none;
-  min-height:159px;
+  min-height:155px;
 }
 
 /* Prevent flush left */
-#su-header .su-container img {
-	padding:0;
-}
+#su-header .su-container img {padding:0;}
 
 #su-header .su-container p {
 	display:inline-block;
@@ -58,7 +48,7 @@ header.global nav,header.global.slim nav, .wrapper-footer,
 	vertical-align:bottom;
 }
 
-#su-header h1.logo{display:inline-block;margin:0;padding:30px 15px 5px;text-align:left;}
+#su-header h1.logo{display:inline-block;margin:0;padding:28px 15px 5px;text-align:left;}
 #su-header h1.logo:before{background:none;}
 #su-header h1.logo img{height:109px;}
 
@@ -83,7 +73,9 @@ header.global .nav-global li a{font-weight:700;color:#fff;}
 header.global .nav-global li a:active,header.global .nav-global li a:hover,header.global .nav-global li a:focus{color:#aeaeae;}
 
 header.global .nav-courseware li .cta, .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware, .view-partial-mktgregister .action.is-registered, .view-partial-mktgregister .action.registration-closed, .view-partial-mktgregister .action.coming-soon{text-transform:uppercase;padding:7px 10px;border-radius:0;}
-header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .view-partial-mktgregister .action.is-registered:hover, .view-partial-mktgregister .action.registration-closed:hover, .view-partial-mktgregister .action.coming-soon:hover{
+
+header.global .nav-courseware li .cta:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover, .view-partial-mktgregister .action.is-registered:hover, .view-partial-mktgregister .action.registration-closed:hover, .view-partial-mktgregister .action.coming-soon:hover,
+.login .form-actions button[type="submit"]:hover, .register .form-actions button[type="submit"]:hover, .passwordreset .form-actions button[type="submit"]:hover, #forgot-password-modal #password-reset .form-actions button[type="submit"]:hover, .view-partial-mktgregister .action.action-register:hover, .view-partial-mktgregister .action.access-courseware:hover{
 background:#747474;}
 
 .view-register .introduction header .title .title-sub, .view-login .introduction header .title .title-sub, .view-passwordreset .introduction header .title .title-sub{margin-left:0;}
@@ -197,7 +189,9 @@ Media queries
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
-	nav.course-material ol.course-tabs{ width:760px; }
+	nav.course-material ol.course-tabs,
+	.container.about>nav, section.about.outside-app>nav,
+	section.vision{ width:760px; }
   
 	/*header.global .nav-global.authenticated li{padding: 0 10px;}*/
 		
@@ -219,7 +213,9 @@ Media queries
 	#su-header .su-container,
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
-	nav.course-material ol.course-tabs {width:960px;}
+	nav.course-material ol.course-tabs,
+	.container.about>nav, section.about.outside-app>nav,
+	section.vision {width:960px;}
 	
 	/*header.global .nav-global.authenticated{margin:0;}
 	header.global .nav-global.authenticated li{padding: 0 25px;}*/	  
@@ -234,7 +230,9 @@ Media queries
 	.course-info header.course-profile .intro-inner-wrapper,
 	.view-register header.global nav, .view-login header.global nav,
 	.view-register .wrapper-footer footer, .view-login .wrapper-footer footer,
-	nav.course-material ol.course-tabs {width:1024px;}
+	nav.course-material ol.course-tabs,
+	.container.about>nav, section.about.outside-app>nav,
+	section.vision {width:1024px;}
 	
 	p.copyright {padding-left:16%;}	
 }	

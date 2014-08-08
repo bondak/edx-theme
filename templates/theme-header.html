@@ -15,7 +15,7 @@
 			<img src="${static.url('themes/teluq/images/teluq-ulibre-logo.png')}" width="325" height="109" alt="U libre" />
         </a>
     </h1>
-      <p>Les cours en ligne ouverts et massifs (CLOM - MOOC)</p>
+      <p>Les cours en ligne ouverts et massifs (CLOM - MOOC) de la TÉLUQ</p>
       
       <a href="http://www.teluq.ca" target="_blank" class="logo_teluq" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
         <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_noir.png" alt="TÉLUQ L'université. Aujourd'hui." width="131" height="45">
@@ -46,6 +46,7 @@
 ## ${_('Find Courses')}
 ## Ajout Annick -> ajout du lien FAQ
 ## When authenticated, show both the about page and find courses
+<%doc>
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
     <a href="${marketing_link('ABOUT')}" title="Page Présentation">Présentation</a>
@@ -57,3 +58,4 @@
     <a href="${marketing_link('ABOUT')}#faq" title="Page FAQ">FAQ</a>
   </li>  
 </%block>
+</%doc>

@@ -126,7 +126,7 @@ box-shadow:none;border:none;}
 .find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
 
 .courses-listing{width:825px;}
-.highlighted-courses {margin-top:-200px;}
+.courses {margin-top:-200px;}
 .highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}
 .highlighted-courses .courses .courses-listing .courses-listing-item, .find-courses .courses .courses-listing .courses-listing-item{width:365px;margin:0 0 0 95px;}
 .highlighted-courses .courses .courses-listing .courses-listing-item:first-child, .find-courses .courses .courses-listing .courses-listing-item:first-child{margin-left:0;}

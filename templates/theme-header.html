@@ -12,10 +12,10 @@
     <div class="su-container">
     <h1 class="logo">
     	<a href="/">
-			<img src="${static.url('themes/teluq/images/ulibre_logo.jpg')}" width="334" height="120" alt="U libre" />
+			<img src="${static.url('themes/teluq/images/ulibre_logo.jpg')}" width="278" height="95" alt="U libre" />
         </a>
     </h1>
-      <p>Les cours en ligne ouverts et massifs (CLOM - MOOC) de la TÉLUQ</p>
+      <p>Les cours en ligne ouverts et massifs<br/>(CLOM - MOOC) de la TÉLUQ</p>
       
       <a href="http://www.teluq.ca" target="_blank" class="logo_teluq" title="Formation à distance - Université à distance et en ligne - TÉLUQ">
         <img src="http://benhur.teluq.ca/logo_teluq/TELUQ_noir.png" alt="TÉLUQ L'université. Aujourd'hui." width="131" height="45">
@@ -38,7 +38,7 @@
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}" title="À propos">À propos</a>
+    <a href="${marketing_link('ABOUT')}" title="À propos">Présentation</a>
   </li>
   <li class="nav-global-02">
     <a href="${marketing_link('COURSES')}" title="Les cours">Les cours</a>
@@ -55,7 +55,7 @@
 <%doc>
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}" title="À propos">À propos</a>
+    <a href="${marketing_link('ABOUT')}" title="À propos">Présentation</a>
   </li>
   <li class="nav-global-02">
     <a href="${marketing_link('COURSES')}" title="Les cours">Les cours</a>

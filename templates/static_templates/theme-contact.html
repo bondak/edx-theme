@@ -1,0 +1,51 @@
+## mako
+## -*- coding: utf-8 -*-
+<%!
+from django.core.urlresolvers import reverse
+from django.utils.translation import ugettext as _
+%>
+<%namespace name='static' file='/static_content.html'/>
+
+<%inherit file="/main.html" />
+
+<%block name="title"><title>Contactez-nous</title></%block>
+
+<section class="container about" style="width: auto;">
+ 
+<section class="vision">
+
+
+## Contact Section ##
+<section class="message left" id="contact">
+<div class="photo">
+<img src="${static.url('http://www.teluq.ca/site/img/joindre/mtl_thumb.jpg')}" alt='${_(u"Les bureaux de la Téluq")}' />
+
+</div>
+<article id="stanford-OpenEdX-contact">
+<h2>CONTACT</h2>
+<p><strong>Pour du soutien technique, ou rapporter des erreurs en lien avec la plateforme, nous écrire à : </strong><br />
+<a href="mailto:support@ulibre.teluq.ca?Subject=Support Ulibre" target="_top">
+support@ulibre.teluq.ca</a>  </p>
+
+<p><strong>Pour des renseignements généraux, nous écrire à : </strong><br />
+<a href="mailto:info@ulibre.teluq.ca?Subject=Info Ulibre" target="_top">
+info@ulibre.teluq.ca</a>  </p>
+
+</article>
+<script>
+$(function() {
+  var ua = navigator.userAgent;
+
+  $('#stanford-OpenEdX-contact a').each(function() {
+    var href = $(this).attr('href') + "?body=User Agent String: " + ua + " (${_('Please do not delete, this text helps us help you. - {platform_name} Team').format(platform_name='Stanford OpenEdX')})";
+    if (!$(this).hasClass('external')) {
+      $(this).attr('href', href);
+    }
+    });
+  });
+</script>
+<hr class="fade-right-hr-divider">
+</section>
+</section>
+
+</section>

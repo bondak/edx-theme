@@ -38,8 +38,14 @@
 ## When unauthenticated, only show the about page link
 <%block name="navigation_global_links">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}" title="Page Présentation">Présentation</a>
+    <a href="${marketing_link('ABOUT')}" title="À propos">Présentation</a>
   </li>
+  <li class="nav-global-02">
+    <a href="${marketing_link('COURSES')}" title="Les cours">Les cours</a>
+  </li>
+  <li class="nav-global-03">
+    <a href="${marketing_link('ABOUT')}#faq" title="FAQ">FAQ</a>
+  </li>  
 </%block>
 
 ## ${_('About')}
@@ -49,13 +55,13 @@
 <%doc>
 <%block name="navigation_global_links_authenticated">
   <li class="nav-global-01">
-    <a href="${marketing_link('ABOUT')}" title="Page Présentation">Présentation</a>
+    <a href="${marketing_link('ABOUT')}" title="À propos">Présentation</a>
   </li>
   <li class="nav-global-02">
-    <a href="${marketing_link('COURSES')}" title="Page Les cours">Les cours</a>
+    <a href="${marketing_link('COURSES')}" title="Les cours">Les cours</a>
   </li>
   <li class="nav-global-03">
-    <a href="${marketing_link('ABOUT')}#faq" title="Page FAQ">FAQ</a>
+    <a href="${marketing_link('ABOUT')}#faq" title="FAQ">FAQ</a>
   </li>  
 </%block>
 </%doc>

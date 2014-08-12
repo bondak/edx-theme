@@ -39,7 +39,7 @@ p a:active,p a:hover,p a:focus{color:#044ea5;}
 #su-header {
   background: #ffffff;
   box-shadow: none;
-  min-height:177px;
+  min-height:167px;
 }
 
 /* Prevent flush left */
@@ -52,11 +52,12 @@ p a:active,p a:hover,p a:focus{color:#044ea5;}
 	color:#6d6e70;
 	text-transform:uppercase;
 	vertical-align:bottom;
+	line-height: 1em;
 }
 
-#su-header h1.logo{display:inline-block;margin:0;padding:28px 15px 2px;text-align:left;}
+#su-header h1.logo{display:inline-block;margin:0;padding:45px 15px 2px;text-align:left;}
 #su-header h1.logo:before{background:none;}
-#su-header h1.logo img{height:120px;}
+#su-header h1.logo img{height:95px;}
 
 
 header.global,header.global.slim{

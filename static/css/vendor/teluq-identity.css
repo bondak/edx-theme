@@ -70,7 +70,7 @@ header.global,header.global.slim{
 header.global nav{height:auto;padding:3px 0 0;}
 header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
-header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
+header.global.slim h2{width:auto;font-size: 1.5em;/*margin-top:83px;*/margin-left:50px;overflow:visible;}
 
 header.global .nav-global{display: block;margin-left:15px;margin-top:8px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:1em;}

@@ -123,10 +123,10 @@ box-shadow:none;border:none;
 }
 .home,
 .find-courses{
-	background:#fff;
-	/*background-image:url('../themes/teluq/images/teluq-pano-gris.jpg');*/
+	/*background:#fff;
+	background-image:url('../themes/teluq/images/teluq-pano-gris.jpg');
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center top;*/
 }
 
 .home>header,

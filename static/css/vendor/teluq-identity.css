@@ -121,13 +121,8 @@ background: linear-gradient(to bottom,  #cb490f 0%,#AF360E 69%,#AF360E 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb490f', endColorstr='#AF360E',GradientType=0 ); /* IE6-9 */
 box-shadow:none;border:none;
 }
-.home,
-.find-courses{
-	background: #fff;
-	background-repeat: no-repeat;
-	background-image: url("/static/themes/teluq/images/teluq-pano-gris.jpg");
-	background-position: center top;
-}
+/*.home,
+.find-courses{background:url("/static/themes/teluq/images/teluq-pano-gris.jpg") no-repeat center top #fff;}*/
 
 .home>header,
 .find-courses header.search, .university-profile header.search{

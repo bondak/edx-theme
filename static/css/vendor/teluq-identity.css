@@ -121,15 +121,24 @@ background: linear-gradient(to bottom,  #cb490f 0%,#AF360E 69%,#AF360E 100%); /*
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb490f', endColorstr='#AF360E',GradientType=0 ); /* IE6-9 */
 box-shadow:none;border:none;
 }
+.home,
+.find-courses{
+	background: #fff;
+	background-repeat: no-repeat;
+	background-image: url("/static/themes/teluq/images/teluq-pano-gris.jpg");
+	background-position: center top;
+}
 
-
-.home>header{
-  height:352px;
+.home>header,
+.find-courses header.search, .university-profile header.search{
+ /* height:352px;*/
+ height:127px;
   /*overflow: hidden;*/
   padding: 0px;
   width: 100%;
   border-bottom:none;
   box-shadow:none;
+  background:none;
 }
 
 .login .form-actions button[type="submit"], .register .form-actions button[type="submit"], .passwordreset .form-actions button[type="submit"], #forgot-password-modal #password-reset .form-actions button[type="submit"], .view-partial-mktgregister .action.action-register, .view-partial-mktgregister .action.access-courseware{box-shadow:none;border-radius:0;}
@@ -137,7 +146,6 @@ box-shadow:none;border:none;
 /*SECTION*/
 
 /*Les cours*/
-.find-courses header.search, .university-profile header.search{height:390px;box-shadow:none;border-bottom:none;}
 
 .courses-listing{width:825px;}
 .highlighted-courses .courses .courses-listing, .find-courses .courses .courses-listing{margin:0 auto;}

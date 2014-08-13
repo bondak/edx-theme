@@ -70,7 +70,7 @@ header.global,header.global.slim{
 header.global nav{height:auto;padding:3px 0 0;}
 header.global nav h1.logo{display:none;}
 header.global.slim nav{padding:3px 0 0;}
-header.global.slim h2{width:auto;font-size: 1.5em;margin-top:83px;margin-left:50px;overflow:visible;}
+header.global.slim h2{width:auto;font-size: 1.5em;/*margin-top:83px;*/margin-left:50px;overflow:visible;}  /*monter les logos des cours sur le bandeau*/
 
 header.global .nav-global{display: block;margin-left:15px;margin-top:8px;}/*125px;*/
 header.global .nav-global li{border-left:2px solid #aeaeae;margin:0;padding:0 25px;font-size:1em;}
@@ -135,10 +135,9 @@ box-shadow:none;border:none;}
 .highlighted-courses .courses .course header.course-preview .info-link, .find-courses .courses .course header.course-preview .info-link{font-size:1em;padding-top:22px;}
 .highlighted-courses .courses .course, .find-courses .courses .course{box-shadow:none;}
 /*.highlighted-courses .courses .course .meta-info, .find-courses .courses .course .meta-info{display:none;}*/
-
 .highlighted-courses .courses .course .inner-wrapper, .find-courses .courses .course .inner-wrapper{border:none;height:260px;}
-.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:260px; margin-top:40px}
-
+.highlighted-courses .courses .course .info .cover-image, .find-courses .courses .course .info .cover-image{height:260px; margin-top:40px;}
+.highlighted-courses .courses .course .info, .find-courses .courses .course .info {height: 420px;}
 nav.course-material{background:#3f3c30;}
 nav.course-material ol.course-tabs{border-radius:none;padding:0;margin:0 auto;}
 nav.course-material ol.course-tabs li a{color:#fff;}

@@ -91,6 +91,7 @@ background:#747474;}
 .highlighted-courses .courses .course .status:after, .find-courses .courses .course .status:after{border-bottom: 6px solid #0d5424;}
 .highlighted-courses .courses .course .status{border-radius: 0;}
 .highlighted-courses .courses .course header.course-preview hgroup, .find-courses .courses .course header.course-preview hgroup{top: 7px;}
+.courses {margin-top:-200px;}
 
 
 .course-info header.course-profile{box-shadow:none;border-bottom:none;padding-top: 129px;height: 260px;}

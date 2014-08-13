@@ -124,7 +124,7 @@ box-shadow:none;border:none;
 .home,
 .find-courses{
 	background:#fff;
-	background-image:url(/static/themes/teluq/images/ulibre_logo.jpg);
+	/*background-image:url(/static/themes/teluq/images/ulibre_logo.jpg);*/
 }
 
 .home>header,

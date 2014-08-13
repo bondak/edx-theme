@@ -123,11 +123,13 @@ box-shadow:none;border:none;
 }
 .home,
 .find-courses{
+	background:url('../themes/teluq/images/teluq-pano-gris.jpg') no-repeat center top #fff;
 }
 
 .home>header,
 .find-courses header.search, .university-profile header.search{
  /* height:352px;*/
+ height:80px;
   /*overflow: hidden;*/
   padding: 0px;
   width: 100%;
